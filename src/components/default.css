@@ -1,0 +1,139 @@
+button {
+    padding: 5px 20px;
+    font-family: acme;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+button.buttonVerde {
+    background: linear-gradient(180deg, #8BB700 0%, #68860B 100%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+    cursor: pointer;
+}
+
+button.buttonVazado {
+    background: none;
+    border: 2px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.3));
+    cursor: pointer;
+}
+
+button.buttonVazado:hover {
+    border: 2px solid #aadb08;
+    color: #aadb08;
+}
+
+@font-face {
+    font-family: acme;
+    src: url(../../public/font/Acme-Regular.ttf);
+}
+
+div .plano{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 80px 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 330px;
+}
+
+.plano h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.plano h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.plano ul{
+    padding: 20px !important;
+}
+
+.plano ul li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    list-style: disc;
+    text-align: left;
+}
+
+.plano .aoCentro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plano .preco{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.plano button{
+    padding: 30px !important;
+    border-radius: 0px !important;
+}
+
+div .colaborador{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    margin: 80px 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colaborador h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.colaborador ul{
+    padding: 20px !important;
+}
+
+.colaborador ul li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.redesSociais ul li{
+    height: 30px;
+    width: 30px;
+}
+
+.redesSociais .linkedin{
+    background-image: '../../public/img/linkedin.png'
+}
+
+.redesSociais .github{
+    background-image: '../../public/img'
+}
