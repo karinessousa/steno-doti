@@ -1,6 +1,6 @@
 import React from 'react';
-import FormCadastro from '../components/formcadastro';
-import ButtonVerde from '../components/subComponents/buttonVerde';
+// import FormCadastro from '../components/formcadastro';
+// import ButtonVerde from '../components/subComponents/buttonVerde';
 
 import '../App.css';
 import Menu from '../components/menu.js';
@@ -11,7 +11,7 @@ function Contato ()  {
         <div>
           <Menu/>
           <div className='painelSecundario'>
-            <div className='alinhar-contato'>
+            {/* <div className='alinhar-contato'>
               <ul>
               <li>
                 <h2>Entre em contato e agende uma consultoria com nosso time</h2>
@@ -57,7 +57,7 @@ function Contato ()  {
                 <li><ButtonVerde name={"Enviar informações"}/></li>
               </ul>
 
-            </label>
+            </label> */}
           </div>
           <Rodape/>
         </div>

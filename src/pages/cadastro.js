@@ -1,8 +1,7 @@
 import React from 'react';
-import ButtonVerde from '../components/subComponents/buttonVerde.js';
-import FormCadastro from '../components/formcadastro.js';
 
 import '../App.css';
+import '../components/default.css';
 import Menu from '../components/menu.js';
 import Rodape from '../components/rodape.js';
 
@@ -10,70 +9,31 @@ function Cadastro ()  {
       return(
         <div>
           <Menu/>
-
           <div className='painelSecundario'>
-            <div className='alinhar-cadastro'>
-              <ul>
-                <li>
-                <h2>Cadastre-se, é grátis!</h2>
-                </li>
-                <li>
-                <h4>**Com o cadastro gratuíto você tem acesso a funcionalidades limitadas, caso deseje um plano personalizado 
-                acesse nossos planos disponíveis.</h4>
-                </li>
-              </ul>
-            </div>
-
-            <div className='alinhar-cadastro'>
+            <ul className='tituloCadastro'>
+              <li><h3>Cadastre-se, é grátis!</h3></li>
+              <li>**Com o cadastro gratuíto você tem acesso a funcionalidades 
+                limitadas, caso deseje <br/> um plano personalizado acesse nossos planos 
+                disponíveis.</li>
+            </ul>
+            <div className='formularioCadastro'>
               <form>
-                <ul>
-                    <FormCadastro
-                      type={'text'}
-                      name={'nome-fantasia'}
-                      placeholder={'Nome fantasia da empresa'}
-                    />
-                    <FormCadastro
-                      type={'text'}
-                      name={'cnpj'}
-                      placeholder={'CNPJ'}
-                    />
-                    <FormCadastro
-                      type={'email'}
-                      name={'e-mail'}
-                      placeholder={'E-mail'}
-                    />
-                    <FormCadastro
-                      type={'number'}
-                      name={'telefone'}
-                      placeholder={'Telefone'}
-                    />
-                    <FormCadastro
-                      type={'password'}
-                      name={'senha'}
-                      placeholder={'Senha'}
-                    />
-                    <FormCadastro
-                      type={'password'}
-                      name={'confirmar-senha'}
-                      placeholder={'Confirme sua senha'}
-                    />
-                </ul>
-              </form>
-            </div>
+                <input type="text" name="" placeholder="Nome fantasia da empresa"/>
+                <input type="text" name="" placeholder="CNPJ" maxLength="14"/>
+                <input type="email" name="" placeholder="E-mail"/>
+                <input type="tel" name="" placeholder="Telefone" maxLength="11"/>
+                <input type="password" name="" placeholder="Senha" maxLength="30" minLength="6"/>
+                <input type="password" name="" placeholder="Confirme sua senha"/>
 
-            <div className='alinhar-checkbox'>
-              <ul>
-                <li>
-                  <input type="checkbox" id="termos" name="termos"/>
-                  <label for="termos">Li e concordo com os termos de uso do DOTI</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="receber-email" name="receber-email"/>
-                  <label for="receber-email">Aceito receber e-mails de notícias e dicas do DOTI</label>
-                </li>
-                <li><ButtonVerde name={"Cadastrar"}/></li>
-                
-              </ul>
+                <label className='termos'>Li e concordo com os termos de uso do DOTI.
+                  <input className='check' type="checkbox"/>
+                  <span></span>
+                </label>
+                <label className='termos'>Aceito receber e-mails de noticias e dicas do DOTI.
+                  <input className='check' type="checkbox"/>
+                  <span></span>
+                </label>
+              </form>
             </div>
           </div>
           <Rodape/>
