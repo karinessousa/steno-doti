@@ -153,6 +153,7 @@ form input{
     height: 45px;
     border: 1px solid #FFFFFF;
     border-radius: 30px;
+    color: white;
     background: transparent;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -171,18 +172,16 @@ form input::placeholder{
 .check{
     width: 18px;
     height: 18px;
-    opacity: 0;
-}
-
-form span{
-    border-radius: 5px;
-    background-color: white;
+    border-radius: 10px;
     border: 2px solid #FFFFFF;
 }
 
-/* form .termos{
+form span{
+    color: white;
+}
+
+form .termos{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-} */
+}
