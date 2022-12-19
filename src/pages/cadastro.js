@@ -2,7 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../firebase-config';
+import { auth, db } from '../firebase-config';
+import { collection, addDoc } from 'firebase/firestore';
 
 import '../App.css';
 import '../components/default.css';
@@ -11,18 +12,20 @@ import Rodape from '../components/rodape.js';
 
 function Cadastro ()  {
 
-  const [name, setName] = useState("");
+  const [nome, setNome] = useState("");
   const [cnpj, setCNPJ] = useState("");
   const [email, setEmail] = useState("");
   const [telefone, setTelefone] = useState("");
   const [senha, setSenha] = useState("");
   const [senha2, setSenha2] = useState("");
 
-  function registerEmpresa (){
+  const registerEmpresa = async () => {
     if(senha === senha2){
       try {
-        createUserWithEmailAndPassword(auth, email, senha);
-
+        await createUserWithEmailAndPassword(auth, email, senha);
+        await addDoc(collection(db, 'empresas'),{
+          nome, cnpj, email, telefone, senha
+        });
       } catch (error) {
         console.log(error.message)
       }
@@ -44,7 +47,7 @@ function Cadastro ()  {
             <input 
               type="text"
               placeholder="Nome fantasia da empresa"
-              onChange={(e) => setName(e.target.value)}
+              onChange={(e) => setNome(e.target.value)}
             />
             <input 
               type="text" 

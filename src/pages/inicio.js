@@ -1,5 +1,4 @@
 import '../App.css';
-import ButtonVerde from '../components/subComponents/buttonVerde.js';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -14,7 +13,11 @@ function Inicio() {
         <ul>
           <li><h3>Ambiente digital gamificado para organização e otimização de times de<br/> 
           desenvolvimento de software</h3></li>
-          <li><Link to="/cadastro"><ButtonVerde name={"ENTRE GRATUITAMENTE"}/></Link></li>
+          <li>
+            <Link to="/cadastro">
+              <button className="buttonVerde">ENTRE GRATUITAMENTE</button>
+            </Link>
+          </li>
         </ul>
       </div>
       <Rodape/>

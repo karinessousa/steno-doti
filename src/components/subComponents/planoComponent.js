@@ -1,8 +1,4 @@
 import '../default.css';
-import ButtonVerde from './buttonVerde';
-
-// Toda vez que precisar usar um botão verde, só usar esse componente aqui e 
-// passar como props o nome que vai dentro
 
 function PlanoComponent(props) {
 
@@ -18,7 +14,7 @@ function PlanoComponent(props) {
             </ul>
             <div className='aoCentro'>
                 <h2 className='preco'>{props.preco}</h2>
-                <ButtonVerde name={"ESCOLHER ESSE PLANO"}></ButtonVerde>
+                <button className="buttonVerde">ESCOLHER ESSE PLANO</button>
             </div>
         </div>
     );
