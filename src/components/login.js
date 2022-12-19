@@ -10,17 +10,9 @@ function Login() {
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
 
-    // const firebaseApp = initializeApp({
-    // apiKey: "AIzaSyBvmDZnbJS1rX1MfRIDiE9CkyTrvHeL_h4",
-    // authDomain: "steno-doti.firebaseapp.com",
-    // projectId: "steno-doti",
-    // });
+    const login = async () => {
 
-    // const db = getFirestore(firebaseApp);
-
-    // function Entrar(){
-
-    // }
+    }
 
     return (
         <div className="Login">

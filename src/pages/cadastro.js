@@ -18,13 +18,9 @@ function Cadastro ()  {
   const [senha, setSenha] = useState("");
   const [senha2, setSenha2] = useState("");
 
-  const firebaseApp = initializeApp({
-    apiKey: "AIzaSyBvmDZnbJS1rX1MfRIDiE9CkyTrvHeL_h4",
-    authDomain: "steno-doti.firebaseapp.com",
-    projectId: "steno-doti",
-  });
+  const register = async () => {
 
-  const db = getFirestore(firebaseApp);
+  }
 
   function CadastrarEmpresa(){
 
