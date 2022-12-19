@@ -16,14 +16,16 @@ function Cadastro ()  {
   const [email, setEmail] = useState("");
   const [telefone, setTelefone] = useState("");
   const [senha, setSenha] = useState("");
+  const [senha2, setSenha2] = useState("");
 
-  const registerEmpresa = async () => {
-    try {
-      createUserWithEmailAndPassword(
-        auth, name, cnpj, email, telefone, senha
-      );
-    } catch (error) {
-      console.log(error.message);
+  function registerEmpresa (){
+    if(senha === senha2){
+      try {
+        createUserWithEmailAndPassword(auth, email, senha);
+
+      } catch (error) {
+        console.log(error.message)
+      }
     }
   }
 
@@ -63,6 +65,11 @@ function Cadastro ()  {
               type="password"
               placeholder="Senha"
               onChange={(e) => setSenha(e.target.value)}
+            />
+            <input 
+              type="password"
+              placeholder="Confirme sua senha"
+              onChange={(e) => setSenha2(e.target.value)}
             />
 
             <label className='termos'>
