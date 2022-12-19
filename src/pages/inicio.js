@@ -1,6 +1,7 @@
 import '../App.css';
 import ButtonVerde from '../components/subComponents/buttonVerde.js';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Menu from '../components/menu.js';
 import Rodape from '../components/rodape.js';
@@ -13,7 +14,7 @@ function Inicio() {
         <ul>
           <li><h3>Ambiente digital gamificado para organização e otimização de times de<br/> 
           desenvolvimento de software</h3></li>
-          <li><ButtonVerde name={"ENTRE GRATUITAMENTE"}/></li>
+          <li><Link to="/cadastro"><ButtonVerde name={"ENTRE GRATUITAMENTE"}/></Link></li>
         </ul>
       </div>
       <Rodape/>
