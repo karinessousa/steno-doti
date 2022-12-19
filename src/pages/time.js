@@ -4,7 +4,6 @@ import '../App.css';
 import Menu from '../components/menu.js';
 import Rodape from '../components/rodape.js';
 import ColComponent from '../components/subComponents/colComponent.js';
-import twn from '../../public/img/time/twn.jpg'
 
 function Planos ()  {
       return(
@@ -17,7 +16,7 @@ function Planos ()  {
             </ul>
             <div className='timeColaboradores'>
               <ColComponent 
-                colphoto={twn}
+                colphoto={'../../public/img/time/twn.jpg'}
                 nome={'Thiago Winvirg'} 
                 hab={'Chief Executive Officer/Chief Information Officer/Ciência da Computação/Dev Back end'}
                 linkedin={'https://www.linkedin.com/in/thiago-winvirg-908257134/'}
