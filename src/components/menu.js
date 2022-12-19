@@ -20,7 +20,7 @@ function Menu() {
         <div>
             {showElement ? <Login/> : null}
             <div className="menu">
-                <div className="logobranca"><Link to="/"></Link></div>
+                <div><Link className="logobranca" to="/"></Link></div>
                 <ul>
                     <li><Link to="/">INICIO</Link></li>
                     <li><Link to="/planos">PLANOS</Link></li>
