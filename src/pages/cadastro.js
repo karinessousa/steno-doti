@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 import { initializeApp } from "firebase/app";
-import { addDoc, collection, getFirestore } from "firebase/firestore"
+import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 import '../App.css';
 import '../components/default.css';
@@ -26,7 +26,7 @@ function Cadastro ()  {
 
   const db = getFirestore(firebaseApp);
 
-  async function CadastrarEmpresa(){
+  function CadastrarEmpresa(){
 
     if(name.reportValidity()===true){
       if(cnpj.reportValidity()===true){

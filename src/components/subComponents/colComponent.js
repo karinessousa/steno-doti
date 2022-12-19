@@ -14,7 +14,7 @@ function ColComponent(props) {
         border-radius: 100%;
         border: solid black;
         margin-bottom: 30px;
-    `;;
+    `;
 
     return (
         <div className='colaborador'>
