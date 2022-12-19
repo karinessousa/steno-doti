@@ -2,17 +2,15 @@ import '../App.css';
 import React from 'react';
 import { useState } from 'react';
 
-// import { initializeApp } from "firebase/app";
-// import { getFirestore } from "firebase/firestore";
 
 function Login() {
 
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
 
-    const login = async () => {
+    // const login = async () => {
 
-    }
+    // }
 
     return (
         <div className="Login">
