@@ -23,9 +23,9 @@ function MenuLogado() {
                 <div><Link className="logobranca" to="/"></Link></div>
                 <ul>
                     <li><input type="search" placeholder="Pesquisar..."/></li>
-                    <li><Link to="/">INICIO</Link></li>
-                    <li><Link to="/planos">PLANOS</Link></li>
-                    <li><Link to="/time">SUPORTE</Link></li>
+                    <li>INICIO</li>
+                    <li>PLANOS</li>
+                    <li>SUPORTE</li>
                     <li>
                         <button className="buttonVazado menuUserTop" onClick={menuUserTop}>USUÁRIO &ensp; &or;</button>
                     </li>
