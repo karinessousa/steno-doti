@@ -2,8 +2,8 @@ import '../App.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Menu from '../components/menu.js';
-import Rodape from '../components/rodape.js';
+import Menu from '../components/menu';
+import Rodape from '../components/rodape';
 
 function Inicio() {
   return (

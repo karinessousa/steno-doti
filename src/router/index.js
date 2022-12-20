@@ -5,6 +5,8 @@ import Time from '../pages/time';
 import Contato from '../pages/contato';
 import Cadastro from '../pages/cadastro';
 
+import InicioLogado from "../pages/inicioLogado";
+
 
 function Router () {
     return(
@@ -15,6 +17,7 @@ function Router () {
                 <Route  path="/time" element = { <Time /> } />
                 <Route  path="/contato" element = { <Contato /> } />
                 <Route  path="/cadastro" element = { <Cadastro /> } />
+                <Route  path="/logado" element = { <InicioLogado /> } />
             </Routes>
         </BrowserRouter>
     )
