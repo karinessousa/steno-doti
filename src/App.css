@@ -311,3 +311,18 @@ a:hover {
   color: #fff;
   border-radius: 30px;
 }
+
+.menuEsquerdo{
+  border: solid black 1px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menuEsquerdo .logoEmpresa{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: solid 1px black;
+}
