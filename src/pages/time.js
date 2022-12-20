@@ -4,6 +4,10 @@ import '../App.css';
 import Menu from '../components/menu.js';
 import Rodape from '../components/rodape.js';
 import ColComponent from '../components/subComponents/colComponent.js';
+import twn from './../time/twn.jpg'
+import kss from './../time/kss.jpg'
+import flb from './../time/flb.jpg'
+
 
 function Planos ()  {
       return(
@@ -16,21 +20,21 @@ function Planos ()  {
             </ul>
             <div className='timeColaboradores'>
               <ColComponent 
-                colphoto={'../../public/img/time/twn.jpg'}
+                colphoto={twn}
                 nome={'Thiago Winvirg'} 
                 hab={'Chief Executive Officer/Chief Information Officer/Ciência da Computação/Dev Back end'}
                 linkedin={'https://www.linkedin.com/in/thiago-winvirg-908257134/'}
                 github={'https://github.com/winvirg'}
               />
               <ColComponent 
-                colphoto={'../../public/img/time/kss.jpg'}
+                colphoto={kss}
                 nome={'Karine Sousa'} 
                 hab={'Chief Product Officer/Chief Design Officer/Designer Digital/Product Designer/UX UI Designer/Dev Front-end'}
                 linkedin={'https://www.linkedin.com/in/karinessousa/'}
                 github={'https://www.linkedin.com/in/karinessousa/'}
               />
               <ColComponent 
-                colphoto={'../../public/img/time/fl.jpg'}
+                colphoto={flb}
                 nome={'Fillipe Leornes'} 
                 hab={'Chief Operating Officer/Chief Process And Innovation Officer/Ciência da Computação'}
                 linkedin={'https://www.linkedin.com/in/fillipeleobrunos/'}

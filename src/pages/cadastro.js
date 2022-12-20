@@ -42,8 +42,8 @@ function Cadastro ()  {
             limitadas, caso deseje <br/> um plano personalizado acesse nossos planos 
             disponíveis.</li>
         </ul>
-        <div className='formularioCadastro'>
-          <form>
+        <div>
+          <form className='formularioCadastro'>
             <input 
               type="text"
               placeholder="Nome fantasia da empresa"
@@ -75,7 +75,7 @@ function Cadastro ()  {
               onChange={(e) => setSenha2(e.target.value)}
             />
 
-            <label className='termos'>
+            <label className='termos' style={{marginLeft: "-75px"}}>
               <input className='check' type="checkbox"/>
               <span>Li e concordo com os termos de uso do DOTI.</span>
             </label>
@@ -83,7 +83,8 @@ function Cadastro ()  {
               <input className='check' type="checkbox"/>
               <span>Aceito receber e-mails de noticias e dicas do DOTI.</span>
             </label>
-            <button className="buttonVerde" onClick={registerEmpresa}>Cadastrar</button>
+            <br/>
+            <button className="buttonVerde" onClick={registerEmpresa} style={{minWidth: "450px"}}>Cadastrar</button>
           </form>
         </div>
       </div>
