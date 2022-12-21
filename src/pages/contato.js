@@ -10,16 +10,14 @@ function Contato ()  {
         <div>
           <Menu/>
           <div className='painelSecundario'>
-            <div className='contato'>
-              <ul>
+            <ul className='tituloCadastro'>
               <li>
-                <h2>Entre em contato e agende uma <br/>consultoria com nosso time</h2>
+                <h3>Entre em contato e agende uma <br/>consultoria com nosso time</h3>
               </li>
               <li>
                 <h4>Deseja um plano personalizado? Uma consultoria com nosso time estratégico? <br/>Entre em contato e vamos conversar!</h4>
               </li>
-              </ul>
-            </div>
+            </ul>
             <form className='formularioCadastro'>
             <input 
               type="text"
