@@ -84,7 +84,7 @@ function Cadastro ()  {
               <span>Aceito receber e-mails de noticias e dicas do DOTI.</span>
             </label>
             <br/>
-            <button className="buttonVerde" onClick={registerEmpresa} style={{minWidth: "450px"}}>Cadastrar</button>
+            <button className="buttonVerde" onClick={registerEmpresa} style={{minWidth: "450px", paddingBottom: "10px", paddingTop: "10px", marginTop: "-10px"}}>Cadastrar</button>
           </form>
         </div>
       </div>
