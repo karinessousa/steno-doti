@@ -10,24 +10,38 @@ function Contato ()  {
         <div>
           <Menu/>
           <div className='painelSecundario'>
-            <div className='alinhar-contato'>
+            <div className='contato'>
               <ul>
               <li>
-                <h2>Entre em contato e agende uma consultoria com nosso time</h2>
+                <h2>Entre em contato e agende uma <br/>consultoria com nosso time</h2>
               </li>
               <li>
-                <h4>Deseja um plano personalizado? Uma consultoria com nosso time estratégico? entre em contato e vamos conversar</h4>
+                <h4>Deseja um plano personalizado? Uma consultoria com nosso time estratégico? <br/>Entre em contato e vamos conversar!</h4>
               </li>
               </ul>
             </div>
-            <form>
-              <label>
-                  <ul>
-                      
-                    <li><button type='submit' name='Enviar informações' className='ButtonVerde'> Enviar informações</button></li>
-                  </ul>
-
-                </label>  
+            <form className='formularioCadastro'>
+            <input 
+              type="text"
+              placeholder="Nome fantasia da empresa"
+            />
+            <input 
+              type="text" 
+              placeholder="CNPJ"
+            />
+            <input 
+              type="email"
+              placeholder="E-mail"
+            />
+            <input 
+              type="tel"
+              placeholder="Telefone"
+            />
+            <input
+              type="text"
+              placeholder="Assunto"
+            />
+              <button className="buttonVerde" style={{minWidth: "450px", padding: "10px", marginTop:"10px", marginBottom:"50px"}}>Enviar informações</button>
             </form>
             
           </div>
