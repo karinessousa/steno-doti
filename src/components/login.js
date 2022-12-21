@@ -1,7 +1,6 @@
 import '../App.css';
 import React from 'react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 
 function Login() {
@@ -29,9 +28,7 @@ function Login() {
                     value={senha}
                     onChange={(e) => setSenha(e.target.value)}
                 />
-                <Link to={"/logado"}>
-                    <button className="buttonVerde">Entrar</button>
-                </Link>
+                <button className="buttonVerde">Entrar</button>
                 <h4>Esqueceu a senha?</h4>
             </form>
         </div>
