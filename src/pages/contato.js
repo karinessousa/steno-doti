@@ -1,8 +1,7 @@
 import React from 'react';
-// import FormCadastro from '../components/formcadastro';
-// import ButtonVerde from '../components/subComponents/buttonVerde';
 
 import '../App.css';
+import '../components/default.css'
 import Menu from '../components/menu.js';
 import Rodape from '../components/rodape.js';
 
@@ -11,7 +10,7 @@ function Contato ()  {
         <div>
           <Menu/>
           <div className='painelSecundario'>
-            {/* <div className='alinhar-contato'>
+            <div className='alinhar-contato'>
               <ul>
               <li>
                 <h2>Entre em contato e agende uma consultoria com nosso time</h2>
@@ -21,43 +20,16 @@ function Contato ()  {
               </li>
               </ul>
             </div>
+            <form>
+              <label>
+                  <ul>
+                      
+                    <li><button type='submit' name='Enviar informações' className='ButtonVerde'> Enviar informações</button></li>
+                  </ul>
+
+                </label>  
+            </form>
             
-            <label>
-              <ul>
-                <FormCadastro
-                  type={'text'}
-                  name={'nome-fantasia'}
-                  placeholder={'Nome fantasia da empresa'}
-                />
-
-                <FormCadastro
-                  type={'text'}
-                  name={'cnpj'}
-                  placeholder={'CNPJ'}
-                />
-
-                <FormCadastro
-                  type={'email'}
-                  name={'e-mail'}
-                  placeholder={'E-mail'}
-                />
-
-                <FormCadastro
-                  type={'number'}
-                  name={'telefone'}
-                  placeholder={'Telefone'}
-                />
-
-                <FormCadastro
-                type={'text'}
-                name={'assunto'}
-                placeholder={'Assunto'}
-                />
-
-                <li><ButtonVerde name={"Enviar informações"}/></li>
-              </ul>
-
-            </label> */}
           </div>
           <Rodape/>
         </div>
