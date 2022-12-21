@@ -294,6 +294,16 @@ a:hover {
   justify-content: center;
 }
 
+.inicioLogado .corpoLogado{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.inicioLogado div{
+  border-radius: 10px;
+}
+
 .menuUserTop{
   margin-right: 100px;
 }
@@ -310,11 +320,13 @@ a:hover {
 }
 
 .menuEsquerdo{
-  border: solid black 1px;
   padding: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
 .menuEsquerdo .logoEmpresa{
@@ -322,4 +334,22 @@ a:hover {
   width: 150px;
   border-radius: 100%;
   border: solid 1px black;
+}
+
+.colunaDireita{
+  margin-left: 50px;
+}
+
+.colunaDireita .missoesPendentes{
+  height: 300px;
+  width: 700px;
+  border: solid 1px black;
+  overflow-y: scroll;
+}
+
+.colunaDireita .game{
+  height: 300px;
+  width: 700px;
+  border: solid 1px black;
+  margin-top: 30px;
 }
