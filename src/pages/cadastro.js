@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth, db } from '../firebase-config';
-import { collection, addDoc } from 'firebase/firestore';
+import { doc, setDoc } from 'firebase/firestore';
 
 import '../App.css';
 import '../components/default.css';
@@ -22,10 +22,12 @@ function Cadastro ()  {
   const registerEmpresa = async () => {
     if(senha === senha2){
       try {
-        await createUserWithEmailAndPassword(auth, email, senha);
-        await addDoc(collection(db, 'empresas'),{
-          nome, cnpj, email, telefone, senha
-        });
+        await setDoc(doc,(db, "empresas"),{
+          auth, nome, cnpj, email, telefone, senha
+        }).then(
+          await createUserWithEmailAndPassword(auth, email, senha), 
+          alert("corrija os erros e tente novamente")
+        );
       } catch (error) {
         console.log(error.message)
       }

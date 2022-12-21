@@ -1,6 +1,9 @@
 import '../App.css';
 import React from 'react';
 import { useState } from 'react';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../firebase-config';
+import { redirect } from 'react-router-dom';
 
 
 function Login() {
@@ -8,9 +11,13 @@ function Login() {
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
 
-    // const login = async () => {
-
-    // }
+    const login = async () => {
+        try {
+            await signInWithEmailAndPassword(auth, email, senha).then(redirect("/logado"), alert("email ou senha incorretos"));
+        } catch (error) {
+            console.log(error.message)
+        }
+    }
 
     return (
         <div className="Login">
@@ -28,7 +35,7 @@ function Login() {
                     value={senha}
                     onChange={(e) => setSenha(e.target.value)}
                 />
-                <button className="buttonVerde">Entrar</button>
+                <button className="buttonVerde" onClick={login}>Entrar</button>
                 <h4>Esqueceu a senha?</h4>
             </form>
         </div>
