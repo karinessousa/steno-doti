@@ -12,7 +12,6 @@ function ColComponent(props) {
         height: 180px;
         width: 180px;
         border-radius: 100%;
-        border: solid black;
         margin-bottom: 30px;
     `;
 
