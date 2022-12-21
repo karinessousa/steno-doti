@@ -41,7 +41,7 @@ function Contato ()  {
               type="text"
               placeholder="Assunto"
             />
-              <button className="buttonVerde" style={{minWidth: "450px", padding: "10px", marginTop:"10px", marginBottom:"50px"}}>Enviar informações</button>
+              <button className="buttonVerde" style={{minWidth: "450px", padding: "10px", marginTop:"20px", marginBottom:"50px"}}>Enviar informações</button>
             </form>
             
           </div>
