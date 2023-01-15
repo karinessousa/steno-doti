@@ -458,5 +458,23 @@ a:hover {
   border-radius: 10px;
   height: 35px;
   margin: 5px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
 
+.task .check{
+  background-image: url('../public/img/check.png');
+  background-size: 100%;
+  height: 22px;
+  width: 22px;
+}
+
+.task .check:active{
+  background-image: url('../public/img/checked.png');
 }
