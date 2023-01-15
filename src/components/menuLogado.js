@@ -20,10 +20,10 @@ function MenuLogado() {
         <div>
             {showElement ? <Login/> : null}
             <div className="menuLogado">
-                <div><Link className="logobranca" to="/"></Link></div>
+                <div><Link className="logobranca" to="/logado"></Link></div>
                 <ul>
                     <li><input type="search" placeholder="Pesquisar..."/></li>
-                    <li>INICIO</li>
+                    <Link to="/logado"><li>INICIO</li></Link>
                     <li>PLANOS</li>
                     <li>SUPORTE</li>
                     <li>

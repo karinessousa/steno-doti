@@ -1,13 +1,13 @@
-import '../App.css';
+import '../../App.css';
 import React from 'react';
 // import { Link } from 'react-router-dom';
 
-function Tasks() {
+function Task() {
   return (
-    <div>
+    <div className='task'>
       
     </div>
   );
 }
 
-export default Tasks;
+export default Task;

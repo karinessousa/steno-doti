@@ -5,7 +5,7 @@ import React from 'react';
 function Game() {
   return (
     <canvas>
-      
+      Seu navegador não suporta HTML5
     </canvas>
   );
 }

@@ -4,6 +4,8 @@ import React from 'react';
 
 import MenuLogado from '../components/menuLogado';
 import Rodape from '../components/rodape';
+import Task from '../components/subComponents/task';
+import { Link } from 'react-router-dom';
 
 function InicioLogado() {
   return (
@@ -22,7 +24,7 @@ function InicioLogado() {
               <p>André Gonçalves</p>
 
               <ul>
-                  <li>Missões Pendentes</li>
+                  <Link to="/logado"><li>Missões Pendentes</li></Link>
                   <li>Documentação</li>
                   <li>Painel Gerente</li>
                   <li>Histórico</li>
@@ -50,7 +52,18 @@ function InicioLogado() {
           </div>
           <div className='colunaDireita'>
               <div className='missoesPendentes'>
-
+                <h4>Missões Pendentes</h4>
+                <div className='missoes'>
+                  <Task/>
+                  <Task/>
+                  <Task/>
+                  <Task/>
+                  <Task/>
+                  <Task/>
+                  <Task/>
+                  <Task/>
+                  <Task/>
+                </div>
               </div>
               <div className='game'>
 
