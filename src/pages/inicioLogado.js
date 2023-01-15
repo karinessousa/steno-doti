@@ -13,9 +13,9 @@ function InicioLogado() {
         <div className='corpoLogado'>
           <div className='menuEsquerdo'>
               <div className='logoEmpresa'></div>
-              <h3>Nome Empresa</h3>
+              <h3>Mercado Livre</h3>
               <h4>CNPJ</h4>
-              <p>XX.XXX.XXX/0001-XX</p>
+              <p>03.361.252/0001-34</p>
               <h4>Cargo</h4>
               <p>Júnior 2</p>
               <h4>Lider responsável</h4>
