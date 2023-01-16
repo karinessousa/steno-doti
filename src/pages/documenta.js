@@ -1,11 +1,12 @@
 import '../App.css';
+import '../components/default.css';
 import React from 'react';
 // import { Link } from 'react-router-dom';
 
 import MenuLogado from '../components/menuLogado';
 import Rodape from '../components/rodape';
-import Task from '../components/subComponents/task';
 import { Link } from 'react-router-dom';
+import CardDocumentacao from '../components/subComponents/cardDocumentacao';
 
 function Documenta() {
   return (
@@ -51,13 +52,15 @@ function Documenta() {
 
           </div>
           <div className='colunaDireita'>
-              <div className='historico'>
+              <div className='documenta'>
                 <h4>Documentação</h4>
-                <div className='missoes'>
-                  <Task taskName="Escolher outra escala de cor para pessoas com daltonismo"/>
-                  <Task taskName="Corrigir código enviado na equipe de front-end"/>
-                  <Task taskName="Fazer o diagrama de processos da aplicação"/>
-                  <Task taskName="Resolver bug de encerrar sessão"/>
+                <div className='cardsDocumenta'>
+                    <CardDocumentacao nome="Descrição Geral do Sistema"/>
+                    <CardDocumentacao nome="Requisitos Funcionais"/>
+                    <CardDocumentacao nome="Requisitos Não Funcionais"/>
+                    <CardDocumentacao nome="Interface"/>
+                    <CardDocumentacao nome="UML"/>
+                    <div className="cardDoc adicionar">+</div>
                 </div>
               </div>
           </div>

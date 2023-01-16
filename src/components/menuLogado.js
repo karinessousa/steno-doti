@@ -27,7 +27,7 @@ function MenuLogado() {
                     <li>PLANOS</li>
                     <li>SUPORTE</li>
                     <li>
-                        <button className="buttonVazado menuUserTop" onClick={menuUserTop}>USUÁRIO &ensp; &or;</button>
+                        <button className="buttonVazado menuUserTop" onClick={menuUserTop}>KARINE &ensp; &or;</button>
                     </li>
                 </ul>
             </div>

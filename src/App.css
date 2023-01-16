@@ -554,3 +554,20 @@ a:hover {
 .historico .task{
   color:#88ad11;
 }
+
+.colunaDireita .documenta{
+  height: 300px;
+  width: 700px;
+  font-family: Montserrat;
+}
+
+.cardsDocumenta{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 35px;
+}
+
