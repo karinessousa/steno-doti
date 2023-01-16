@@ -7,7 +7,7 @@ import Rodape from '../components/rodape';
 import Task from '../components/subComponents/task';
 import { Link } from 'react-router-dom';
 
-function Historico() {
+function Documenta() {
   return (
     <div>
       <MenuLogado />
@@ -24,7 +24,7 @@ function Historico() {
               <p>André Gonçalves</p>
 
               <ul>
-                  <Link to="/logado"><li>Missões Pendentes</li></Link>
+              <Link to="/logado"><li>Missões Pendentes</li></Link>
                   <Link to="/documentacao"><li>Documentação</li></Link>
                   <li>Painel Gerente</li>
                   <Link to="/historico"><li>Histórico</li></Link>
@@ -52,7 +52,7 @@ function Historico() {
           </div>
           <div className='colunaDireita'>
               <div className='historico'>
-                <h4>Histórico</h4>
+                <h4>Documentação</h4>
                 <div className='missoes'>
                   <Task taskName="Escolher outra escala de cor para pessoas com daltonismo"/>
                   <Task taskName="Corrigir código enviado na equipe de front-end"/>
@@ -68,4 +68,4 @@ function Historico() {
   );
 }
 
-export default Historico;
+export default Documenta;

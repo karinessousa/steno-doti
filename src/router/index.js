@@ -7,6 +7,7 @@ import Cadastro from '../pages/cadastro';
 import Historico from "../pages/historico";
 
 import InicioLogado from "../pages/inicioLogado";
+import Documenta from "../pages/documenta";
 
 
 function Router () {
@@ -20,6 +21,7 @@ function Router () {
                 <Route  path="/cadastro" element = { <Cadastro /> } />
                 <Route  path="/logado" element = { <InicioLogado /> } />
                 <Route  path="/historico" element = { <Historico /> } />
+                <Route  path="/documentacao" element = { <Documenta /> } />
             </Routes>
         </BrowserRouter>
     )
