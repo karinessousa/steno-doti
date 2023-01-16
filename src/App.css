@@ -466,6 +466,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   align-content: space-between;
+  cursor: pointer;
 }
 
 .task .check{
@@ -477,4 +478,79 @@ a:hover {
 
 .task .check:active{
   background-image: url('../public/img/checked.png');
+}
+
+.menuEsquerdo table{
+  margin-top: 30px;
+}
+
+.menuEsquerdo table tr td{
+  height: 50px;
+  width: 50px;
+  background-size: 100%;
+}
+
+.menuEsquerdo table tr .rec1{
+  background-image: url(../public/img/recompensas/boaComunicaçãoCliente.png);
+}
+
+.menuEsquerdo table tr .rec2{
+  background-image: url(../public/img/recompensas/boaComunicaçãoInterna.png);
+}
+
+.menuEsquerdo table tr .rec3{
+  background-image: url(../public/img/recompensas/bomEmGeolocalização.png);
+}
+
+.menuEsquerdo table tr .rec4{
+  background-image: url(../public/img/recompensas/sempreAtualizado.png);
+}
+
+.menuEsquerdo table tr .rec5{
+  background-image: url(../public/img/recompensas/bonsDiagramas.png);
+}
+
+.menuEsquerdo table tr .rec6{
+  background-image: url(../public/img/recompensas/caraDaRede.png);
+}
+
+.colunaDireita .historico{
+  height: 300px;
+  width: 700px;
+  font-family: Montserrat;
+}
+
+.colunaDireita .historico h4{
+  margin-bottom: 15px;
+}
+
+.colunaDireita .historico .missoes{
+  overflow-y: scroll;
+  scrollbar-color: #3b3b3b #ffffff;
+  height: 250px;
+}
+
+.colunaDireita .historico .missoes::-webkit-scrollbar{
+  width: 15px;
+}
+
+.colunaDireita .historico .missoes::-webkit-scrollbar-track{
+  background: #ffffff;
+}
+
+.colunaDireita .historico .missoes::-webkit-scrollbar-thumb{
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.historico .task .check{
+  background-image: url('../public/img/checked.png');
+  background-size: 100%;
+  height: 22px;
+  width: 22px;
+}
+
+.historico .task{
+  color:#88ad11;
 }

@@ -4,6 +4,7 @@ import Planos from '../pages/planos';
 import Time from '../pages/time';
 import Contato from '../pages/contato';
 import Cadastro from '../pages/cadastro';
+import Historico from "../pages/historico";
 
 import InicioLogado from "../pages/inicioLogado";
 
@@ -18,6 +19,7 @@ function Router () {
                 <Route  path="/contato" element = { <Contato /> } />
                 <Route  path="/cadastro" element = { <Cadastro /> } />
                 <Route  path="/logado" element = { <InicioLogado /> } />
+                <Route  path="/historico" element = { <Historico /> } />
             </Routes>
         </BrowserRouter>
     )

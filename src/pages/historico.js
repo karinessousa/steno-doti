@@ -7,7 +7,7 @@ import Rodape from '../components/rodape';
 import Task from '../components/subComponents/task';
 import { Link } from 'react-router-dom';
 
-function InicioLogado() {
+function Historico() {
   return (
     <div>
       <MenuLogado />
@@ -27,7 +27,7 @@ function InicioLogado() {
                   <Link to="/logado"><li>Missões Pendentes</li></Link>
                   <li>Documentação</li>
                   <li>Painel Gerente</li>
-                  <Link to="/historico"><li>Histórico</li></Link>
+                  <li>Histórico</li>
                   <li>Personagem</li>
               </ul>
 
@@ -51,24 +51,14 @@ function InicioLogado() {
 
           </div>
           <div className='colunaDireita'>
-              <div className='missoesPendentes'>
-                <h4>Missões Pendentes</h4>
+              <div className='historico'>
+                <h4>Histórico</h4>
                 <div className='missoes'>
-                  <Task taskName="Front-end tela inicial"/>
-                  <Task taskName="Plano de navegação"/>
-                  <Task taskName="Front-end login"/>
-                  <Task taskName="Corrigir erro ao guardar arquivos no banco de dados"/>
-                  <Task taskName="Ajustar página de cadastro na plataforma mobile"/>
-                  <Task taskName="Resolver problema de login na plataforma"/>
-                  <Task taskName="Resolver visualização de documentos salvos"/>
                   <Task taskName="Escolher outra escala de cor para pessoas com daltonismo"/>
                   <Task taskName="Corrigir código enviado na equipe de front-end"/>
                   <Task taskName="Fazer o diagrama de processos da aplicação"/>
                   <Task taskName="Resolver bug de encerrar sessão"/>
                 </div>
-              </div>
-              <div className='game'>
-
               </div>
           </div>
         </div>
@@ -78,4 +68,4 @@ function InicioLogado() {
   );
 }
 
-export default InicioLogado;
+export default Historico;
