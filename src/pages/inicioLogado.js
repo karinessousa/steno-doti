@@ -15,13 +15,13 @@ function InicioLogado() {
         <div className='corpoLogado'>
           <div className='menuEsquerdo'>
               <div className='logoEmpresa'></div>
-              <h3>Mercado Livre</h3>
+              <h3>Steno Solutions</h3>
               <h4>CNPJ</h4>
-              <p>03.361.252/0001-34</p>
+              <p>00.000.000/0001-00</p>
               <h4>Cargo</h4>
-              <p>Júnior 2</p>
+              <p>Júnior 1</p>
               <h4>Lider responsável</h4>
-              <p>André Gonçalves</p>
+              <p>Thiago Winvirg</p>
 
               <ul>
                   <Link to="/logado"><li>Missões Pendentes</li></Link>
@@ -54,17 +54,94 @@ function InicioLogado() {
               <div className='missoesPendentes'>
                 <h4>Missões Pendentes</h4>
                 <div className='missoes'>
-                  <Task taskName="Front-end tela inicial"/>
-                  <Task taskName="Plano de navegação"/>
-                  <Task taskName="Front-end login"/>
-                  <Task taskName="Corrigir erro ao guardar arquivos no banco de dados"/>
-                  <Task taskName="Ajustar página de cadastro na plataforma mobile"/>
-                  <Task taskName="Resolver problema de login na plataforma"/>
-                  <Task taskName="Resolver visualização de documentos salvos"/>
-                  <Task taskName="Escolher outra escala de cor para pessoas com daltonismo"/>
-                  <Task taskName="Corrigir código enviado na equipe de front-end"/>
-                  <Task taskName="Fazer o diagrama de processos da aplicação"/>
-                  <Task taskName="Resolver bug de encerrar sessão"/>
+                  <Task
+                    taskName="Front-end tela inicial"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Plano de navegação"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Front-end login"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Corrigir erro ao guardar arquivos no banco de dados"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Ajustar página de cadastro na plataforma mobile"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Resolver problema de login na plataforma"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Resolver visualização de documentos salvos"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Escolher outra escala de cor para pessoas com daltonismo"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Corrigir código enviado na equipe de front-end"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Fazer o diagrama de processos da aplicação"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
+                  <Task 
+                    taskName="Resolver bug de encerrar sessão"
+                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
+                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
+                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
+                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
+                    accumsan nisl."/>
                 </div>
               </div>
               <div className='game'>

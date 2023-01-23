@@ -16,7 +16,7 @@ function Login() {
     const entrar = async () => {
 
         if(email === "solutionssteno@gmail.com" && senha==="solutiostech"){
-            redirect ("/logado");
+            redirect("/logado");
         }
         else{
             alert("email ou senha incorretos")
