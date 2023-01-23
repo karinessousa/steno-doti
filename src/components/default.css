@@ -179,12 +179,12 @@ form input::placeholder{
     margin-left: -40px;
 }
 
-form .termos input{
+.formularioCadastro .termos input{
     min-width: 0px;
     
 }
 
-form .termos span{
+.formularioCadastro .termos span{
     padding-left: 20px;
 }
 

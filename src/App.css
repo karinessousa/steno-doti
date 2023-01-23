@@ -192,6 +192,19 @@ a:hover {
   line-height: 16px;
 }
 
+.formularioCadastro{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.formularioCadastro input::placeholder{
+  color: white;
+}
+
 .formularioCadastro .buttonVerde{
   min-width: "450px";
   padding-bottom: "10px";
@@ -211,14 +224,23 @@ a:hover {
   justify-content: center;
 }
 
-.Login form{
+.formLogin{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Login .formLogin{
   background-color: white;
   padding: 50px;
   border-radius: 30px;
   color: #000000;
 }
 
-.Login form h2{
+.Login .formLogin h2{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
@@ -228,7 +250,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.Login form input{
+.Login .formLogin input{
   min-width: 300px !important;
   border: black 1px solid;
   color: black;
@@ -247,11 +269,11 @@ a:hover {
   line-height: 18px;
 }
 
-.Login form input::placeholder{
+.Login .formLogin input::placeholder{
   color: black;
 }
 
-.Login form button{
+.Login .formLogin button{
   min-width: 300px !important;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -259,12 +281,12 @@ a:hover {
   box-shadow: none;;
 }
 
-.Login form .buttonVazado{
+.Login .formLogin .buttonVazado{
   border: 2px solid #81a606;
   color: #81a606;
 }
 
-.Login form h4{
+.Login .formLogin h4{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
