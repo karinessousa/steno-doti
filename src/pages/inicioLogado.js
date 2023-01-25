@@ -56,14 +56,11 @@ function InicioLogado() {
                 <div className='missoes'>
                   <Task
                     taskName="Front-end tela inicial"
-                    descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
-                    malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
-                    efficitur. Donec tristique, lorem id consequat tristique, tellus ex finibus 
-                    purus, vel condimentum ante felis at libero. In sit amet auctor nibh, eu 
-                    accumsan nisl."/>
+                    tipoTask="Interface"
+                    descTask="Inserir fale conosco na tela inicial e chamadas para o DOTI, atualizar versão"/>
                   <Task 
                     taskName="Plano de navegação"
+                    tipoTask="Diagramas"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -72,6 +69,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Front-end login"
+                    tipoTask="Interface"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -80,6 +78,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Corrigir erro ao guardar arquivos no banco de dados"
+                    tipoTask="Bugs"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -88,6 +87,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Ajustar página de cadastro na plataforma mobile"
+                    tipoTask="Interface"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -96,6 +96,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Resolver problema de login na plataforma"
+                    tipoTask="Bugs"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -104,6 +105,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Resolver visualização de documentos salvos"
+                    tipoTask="Interface"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -112,6 +114,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Escolher outra escala de cor para pessoas com daltonismo"
+                    tipoTask="Interface"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -120,6 +123,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Corrigir código enviado na equipe de front-end"
+                    tipoTask="Interface"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -128,6 +132,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Fazer o diagrama de processos da aplicação"
+                    tipoTask="Diagramas"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 
@@ -136,6 +141,7 @@ function InicioLogado() {
                     accumsan nisl."/>
                   <Task 
                     taskName="Resolver bug de encerrar sessão"
+                    tipoTask="Bugs"
                     descTask="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc a erat vel erat dignissim hendrerit. Proin at augue eu libero 
                     malesuada sollicitudin vel id eros. Duis semper sem quis diam malesuada 

@@ -1,6 +1,6 @@
 import '../App.css';
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
 // import { signInWithEmailAndPassword } from 'firebase/auth';
@@ -45,7 +45,7 @@ function Login() {
                     value={senha}
                     onChange={(e) => setSenha(e.target.value)}
                 />
-                <button className="buttonVerde" onClick={entrar}>Entrar</button>
+                <Link to="/logado"><button className="buttonVerde">Entrar</button></Link>
                 <h4>Esqueceu a senha?</h4>
             </div>
         </div>

@@ -3,6 +3,11 @@
   src: url(../public/font/Acme-Regular.ttf);
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url(../public/font/Montserrat-Regular.ttf);
+}
+
 * {
   padding: 0px;
   margin: 0px;

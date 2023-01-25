@@ -15,14 +15,14 @@ function Documenta() {
       <div className='inicioLogado'>
         <div className='corpoLogado'>
           <div className='menuEsquerdo'>
-              <div className='logoEmpresa'></div>
-              <h3>Mercado Livre</h3>
+          <div className='logoEmpresa'></div>
+              <h3>Steno Solutions</h3>
               <h4>CNPJ</h4>
-              <p>03.361.252/0001-34</p>
+              <p>00.000.000/0001-00</p>
               <h4>Cargo</h4>
-              <p>Júnior 2</p>
+              <p>Júnior 1</p>
               <h4>Lider responsável</h4>
-              <p>André Gonçalves</p>
+              <p>Thiago Winvirg</p>
 
               <ul>
               <Link to="/logado"><li>Missões Pendentes</li></Link>
@@ -55,11 +55,17 @@ function Documenta() {
               <div className='documenta'>
                 <h4>Documentação</h4>
                 <div className='cardsDocumenta'>
-                    <CardDocumentacao nome="Descrição Geral do Sistema"/>
+                    <CardDocumentacao
+                      nome="Descrição Geral do Sistema"
+                      descDoc="Através da gamificação motivar os funcionários 
+                      a melhorar a documentação de forma organizada para reduzir
+                      as dificuldades na rotatividade nos times de TI."
+                      />
                     <CardDocumentacao nome="Requisitos Funcionais"/>
                     <CardDocumentacao nome="Requisitos Não Funcionais"/>
                     <CardDocumentacao nome="Interface"/>
-                    <CardDocumentacao nome="UML"/>
+                    <CardDocumentacao nome="Diagramas"/>
+                    <CardDocumentacao nome="Bugs"/>
                     <div className="cardDoc adicionar">+</div>
                 </div>
               </div>

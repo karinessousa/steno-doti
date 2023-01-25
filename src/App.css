@@ -516,7 +516,26 @@ a:hover {
 }
 
 .taskAberta h3{
+  margin-bottom: 10px;
+}
+
+.taskAberta .tipoTask{
   margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.taskAberta .descricaoTask{
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.taskAberta .descriminacaoTask{
+  min-width: 100%;
+  height: 100px;
+}
+
+.taskAberta .inserirImagem{
+  margin-top: 30px;
 }
 
 .fecharTask{
@@ -623,3 +642,19 @@ a:hover {
   margin-top: 35px;
 }
 
+.docAberto{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 350px;
+  z-index: 88;
+  background: white;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+  padding: 100px 30px;
+  box-sizing: border-box;
+}
+
+.docAberto h3{
+  margin-bottom: 10px;
+}

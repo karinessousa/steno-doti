@@ -28,12 +28,15 @@ function Task(props) {
         <div className='taskAberta'>
           <div className='conteudoTask'>
             <h3>{props.taskName}</h3>
-            <div className='tipoTask'></div>
+            <div className='tipoTask'>Tipo de missão: {props.tipoTask}</div>
             <div className='descricaoTask'>{props.descTask}</div>
-            <div className='inserirImagem'></div>
+            <h4>Atividades realizadas</h4>
+            <textarea className='descriminacaoTask'/>
+            <div className='inserirImagem'><input type="file"/></div>
           </div>
           <button className='fecharTask buttonVazado' onClick={fecharTask}>FECHAR</button>
-          <button className='fecharTask buttonVazado'>CONCLUIR</button>
+          <button className='fecharTask buttonVazado' onClick={fecharTask}>CONCLUIR</button>
+          <button className='fecharTask buttonVazado'>SINCRONIZAR TRELLO</button>
         </div>
       : null}
     </div>
