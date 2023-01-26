@@ -26,7 +26,7 @@ function Historico() {
               <ul>
                   <Link to="/logado"><li>Missões Pendentes</li></Link>
                   <Link to="/documentacao"><li>Documentação</li></Link>
-                  <li>Painel Gerente</li>
+                  <Link to="/gerente"><li>Painel Gerente</li></Link>
                   <Link to="/historico"><li>Histórico</li></Link>
                   <li>Personagem</li>
               </ul>

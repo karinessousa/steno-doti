@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import CardDocumentacao from '../components/subComponents/cardDocumentacao';
 import CardDocAdd from '../components/subComponents/cardDocAdd';
 
-function Documenta() {
+function Gerente() {
   return (
     <div>
       <MenuLogado />
@@ -54,20 +54,8 @@ function Documenta() {
           </div>
           <div className='colunaDireita'>
               <div className='documenta'>
-                <h4>Documentação</h4>
-                <div className='cardsDocumenta'>
-                    <CardDocumentacao
-                      nome="Descrição Geral do Sistema"
-                      descDoc="Através da gamificação motivar os funcionários 
-                      a melhorar a documentação de forma organizada para reduzir
-                      as dificuldades na rotatividade nos times de TI."
-                      />
-                    <CardDocumentacao nome="Requisitos Funcionais"/>
-                    <CardDocumentacao nome="Requisitos Não Funcionais"/>
-                    <CardDocumentacao nome="Interface"/>
-                    <CardDocumentacao nome="Diagramas"/>
-                    <CardDocAdd/>
-                </div>
+                <h4>Gerenciar Time</h4>
+                
               </div>
           </div>
         </div>
@@ -77,4 +65,4 @@ function Documenta() {
   );
 }
 
-export default Documenta;
+export default Gerente;

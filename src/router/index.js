@@ -9,6 +9,7 @@ import Historico from "../pages/historico";
 import InicioLogado from "../pages/inicioLogado";
 import Documenta from "../pages/documenta";
 import Documento from "../pages/documento";
+import Gerente from "../pages/gerente";
 
 
 function Router () {
@@ -24,6 +25,7 @@ function Router () {
                 <Route  path="/historico" element = { <Historico /> } />
                 <Route  path="/documentacao" element = { <Documenta /> } />
                 <Route  path="/documentacoa" element = { <Documento /> } />
+                <Route  path="/gerente" element = { <Gerente /> } />
             </Routes>
         </BrowserRouter>
     )
