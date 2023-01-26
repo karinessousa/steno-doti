@@ -6,8 +6,6 @@ import React from 'react';
 import MenuLogado from '../components/menuLogado';
 import Rodape from '../components/rodape';
 import { Link } from 'react-router-dom';
-import CardDocumentacao from '../components/subComponents/cardDocumentacao';
-import CardDocAdd from '../components/subComponents/cardDocAdd';
 
 function Gerente() {
   return (
@@ -55,7 +53,30 @@ function Gerente() {
           <div className='colunaDireita'>
               <div className='documenta'>
                 <h4>Gerenciar Time</h4>
-                
+                <div className='formGerencia'>
+                    <select name="colaborador">
+                        <option value="Karine">Colaborador...</option>
+                        <option value="Karine">Karine</option>
+                        <option value="Thiago">Thiago</option>
+                        <option value="Fillipe">Fillipe</option>
+                    </select>
+
+                    <h5>Criar Missão</h5>
+
+                    <input type="text" placeholder='Titulo Missão'/>
+                    <textarea placeholder='Descrição Missão'/>
+                    <select name="Tópico">
+                        <option value="Karine">Selecione tópico relacionado...</option>
+                        <option value="Karine">Descrição Geral do Sistema</option>
+                        <option value="Thiago">Requisitos Funcionais</option>
+                        <option value="Fillipe">Requisitos Não Funcionais</option>
+                        <option value="Fillipe">Interface</option>
+                        <option value="Fillipe">Diagramas</option>
+                        <option value="Fillipe">Bugs</option>
+                    </select>
+
+                    <button className='fecharTask buttonVazado'>SALVAR</button>
+                </div>
               </div>
           </div>
         </div>

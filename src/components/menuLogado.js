@@ -9,6 +9,7 @@ function MenuLogado() {
     const [showElement2, setShowElement2] = useState(true)
     const [showElement3, setShowElement3] = useState(false)
     const [showElement4, setShowElement4] = useState(true)
+
     const controlVoice = () => {
         if(showElement === true){
             setShowElement(false)
@@ -20,7 +21,7 @@ function MenuLogado() {
     }
 
     const controlAudio = () => {
-        if(showElement === true){
+        if(showElement3 === true){
             setShowElement3(false)
             setShowElement4(true)
         }else {

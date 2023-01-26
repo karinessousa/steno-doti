@@ -666,7 +666,7 @@ a:hover {
   height: 20px;
   width: 15px;
   margin-top: 5px;
-  margin-left: 300px;
+  margin-left: 250px;
   cursor: pointer;
 }
 
@@ -677,7 +677,7 @@ a:hover {
   height: 20px;
   width: 15px;
   margin-top: 5px;
-  margin-left: 300px;
+  margin-left: 250px;
   cursor: pointer;
 }
 
@@ -685,10 +685,10 @@ a:hover {
   background-image: url(../public/img/audio.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 20px;
-  width: 15px;
+  height: 22px;
+  width: 22px;
   margin-top: 5px;
-  margin-left: 300px;
+  margin-left: 20px;
   cursor: pointer;
   color: white;
 }
@@ -697,10 +697,10 @@ a:hover {
   background-image: url(../public/img/audioDesligado.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 20px;
-  width: 15px;
+  height: 22px;
+  width: 22px;
   margin-top: 5px;
-  margin-left: 300px;
+  margin-left: 20px;
   cursor: pointer;
   color: white;
 }
@@ -713,4 +713,37 @@ a:hover {
   border-radius: 15px;
   border-color:rgb(150, 150, 150);
   border: 1px solid;
+}
+
+.formGerencia{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 35px; */
+}
+
+.formGerencia select{
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.formGerencia input{
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.formGerencia h5{
+  margin-top: 30px;
+}
+
+.formGerencia textarea{
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: 150px;
 }
