@@ -658,3 +658,24 @@ a:hover {
 .docAberto h3{
   margin-bottom: 10px;
 }
+
+.AudioSalaEquipe{
+  background-image: url(../public/img/audio.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 20px;
+  width: 15px;
+  margin-top: 5px;
+  margin-left: 300px;
+  cursor: pointer;
+}
+
+.descDoc input{
+  padding: 10px;
+  min-width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  border-color:rgb(150, 150, 150);
+  border: 1px solid;
+}

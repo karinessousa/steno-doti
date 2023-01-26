@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import CardDocumentacao from '../components/subComponents/cardDocumentacao';
 import CardDocAdd from '../components/subComponents/cardDocAdd';
 
-function Documenta() {
+function Documento() {
   return (
     <div>
       <MenuLogado />
@@ -66,6 +66,7 @@ function Documenta() {
                     <CardDocumentacao nome="Requisitos Não Funcionais"/>
                     <CardDocumentacao nome="Interface"/>
                     <CardDocumentacao nome="Diagramas"/>
+                    <CardDocumentacao nome="Bugs"/>
                     <CardDocAdd/>
                 </div>
               </div>
@@ -77,4 +78,4 @@ function Documenta() {
   );
 }
 
-export default Documenta;
+export default Documento;
